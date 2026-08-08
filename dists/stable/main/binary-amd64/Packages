@@ -1,0 +1,23 @@
+Package: apiplant
+Version: 0.8.0-1
+Architecture: amd64
+Maintainer: Federico Rampazzo <federico@apiplant.com>
+Installed-Size: 95704
+Filename: pool/main/a/apiplant/apiplant_0.8.0-1_amd64.deb
+Size: 28125292
+MD5sum: 8b5d7ecf722341249695fb6ce01adf27
+SHA1: b0fb22c3818cef157f359e2c4688afb0121442ab
+SHA256: 4da6e5efa8b1798024db2384139c0f85a45ee378d01bc91e9637cb7109781716
+Section: web
+Priority: optional
+Homepage: https://github.com/apiplant/apiplant
+Description: Point it at an app directory and it serves an API
+ apiplant reads an app directory - resource definitions, functions, an optional
+ main.toml - and serves it as an HTTP API, with an admin dashboard, a terminal
+ console and a visual editor built into the same binary.
+ .
+ The package declares no dependencies: the binary links only libc, libm and
+ libgcc_s, which are part of every Debian installation. It is built against
+ glibc 2.35, so it needs Debian 12 (bookworm) or newer, or Ubuntu 22.04 or
+ newer.
+

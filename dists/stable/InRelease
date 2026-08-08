@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Sat, 08 Aug 2026 12:19:40 +0000
+Description: apiplant releases
+Label: apiplant
+Origin: apiplant
+Suite: stable
+MD5Sum:
+ 0fe1e452a87058064dce4fdb6b0649ea              962 main/binary-amd64/Packages
+ 8135a00513d90982a5e97cf72f4a37fc              624 main/binary-amd64/Packages.gz
+ 6378c4db2bc76e0502f46e1a7e998cc9              962 main/binary-arm64/Packages
+ 21edcfe93d1da2623d4e119c9a70ccf0              623 main/binary-arm64/Packages.gz
+SHA1:
+ bc6f1caed4dd0dfd03c99d96f2ae81ae3d2e50a8              962 main/binary-amd64/Packages
+ c5ee1ba692adda9c9ff860615f498235292acc4f              624 main/binary-amd64/Packages.gz
+ aa31709d9f375415ebd38057134232e0640d07fe              962 main/binary-arm64/Packages
+ c10a6b4467220a620a8823a3d0bd3e349a0972b9              623 main/binary-arm64/Packages.gz
+SHA256:
+ fa49ec4c8d6c3d4d19462580015faf470aaf5f3842ca610d7cb31ff665e237dd              962 main/binary-amd64/Packages
+ af8cea4aa0279cb7b607bca9691da8a470f5aed689962e957a6066dca5b3b130              624 main/binary-amd64/Packages.gz
+ cc5986904c9a072dc3bd475453340fcf0e158124533d6b2baaa7f4473aab46bf              962 main/binary-arm64/Packages
+ 564d0b7fe88f08466e9ffe96ef48d8dc981c11a7b6968eec105b09cf2b6d2b09              623 main/binary-arm64/Packages.gz
+SHA512:
+ 242cb20f138a90fb002d96001e406c3383c74cc4d1ed5af3427009b9a4e1a37e0ca8d540877749c919747d9052db070a1110b9e2c9995ae21e2e70909dbd6b0a              962 main/binary-amd64/Packages
+ 0e7903c90f385839efb05247fe5f87908a89722322d3b77ea51c4e61443631fa90f11bd33e1ff8f250c5ae2043764277481af3a5a8b3b54ae3344b29115676de              624 main/binary-amd64/Packages.gz
+ 9b8fda31e0fb24eeb8fa4af7a1db797fbda564e45c326b681c36ed38e17ad31cfcbdb62a1c8d0552df93697178d62faba71e39c0c1358c7df269c0053f02ad61              962 main/binary-arm64/Packages
+ 388641f20e7068a1405e2ec01971a35eb0c6146c68f8c05751cdc78a9e9d91564ba38db52f239aa2e2a44e0ad242ef8678cd6abebadcca4e6ca03d3d9e03b0e4              623 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQTms2/lEn/yzFDNuZXdrWSDi3+WsAUCance3AAKCRDdrWSDi3+W
+sCn3AP9b3YNgZ00s61cutOAlmZ7Dt4fiRYriC1nLKKYZ9ECoPgD8Crft+gfko9jy
+oeH+cXPxlgCYDxoVSi4GL1jBN3t4QAg=
+=XNcJ
+-----END PGP SIGNATURE-----
