@@ -22,16 +22,16 @@ Description: Point it at an app directory and it serves an API
  newer.
 
 Package: portward
-Version: 0.3.1-1
+Version: 0.3.2-1
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 2236
 Depends: lsof
-Filename: pool/main/p/portward/portward_0.3.1-1_amd64.deb
-Size: 832076
-MD5sum: 261e7ad75f732f96e4d4c147661fdb7c
-SHA1: 1847ee3f1bf61f1b6b9e7e8f82a3fcc0663a7d72
-SHA256: 379cb1e3bdb4e18d4c70710a2f342db0215848fa9bd792eb178face1d1162471
+Filename: pool/main/p/portward/portward_0.3.2-1_amd64.deb
+Size: 832070
+MD5sum: 3f7312a77928da0bed53309eb34cf8d3
+SHA1: 6461bcbc248d6ebc90fb8af4e08014d0c96ab663
+SHA256: 02a597a74ef64df807e13dea5c34935e31418a64791049527fe9eef5cba6e217
 Section: net
 Priority: optional
 Homepage: https://github.com/apiplant/portward
