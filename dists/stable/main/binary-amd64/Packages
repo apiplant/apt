@@ -21,3 +21,27 @@ Description: Point it at an app directory and it serves an API
  glibc 2.35, so it needs Debian 12 (bookworm) or newer, or Ubuntu 22.04 or
  newer.
 
+Package: portward
+Version: 0.3.1-1
+Architecture: amd64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 2236
+Depends: lsof
+Filename: pool/main/p/portward/portward_0.3.1-1_amd64.deb
+Size: 832076
+MD5sum: 261e7ad75f732f96e4d4c147661fdb7c
+SHA1: 1847ee3f1bf61f1b6b9e7e8f82a3fcc0663a7d72
+SHA256: 379cb1e3bdb4e18d4c70710a2f342db0215848fa9bd792eb178face1d1162471
+Section: net
+Priority: optional
+Homepage: https://github.com/apiplant/portward
+Description: Live map of listening ports on localhost, with a web UI
+ portward runs a small local web server that shows which app is listening on
+ which port, with a link to open each one and an inline iframe preview. It
+ shells out to lsof for discovery and can kill a listening process from the
+ UI.
+ .
+ The package's own binary links only libc, libm and libgcc_s. It is built
+ against glibc 2.35, so it needs Debian 12 (bookworm) or newer, or Ubuntu
+ 22.04 or newer.
+
