@@ -1,13 +1,13 @@
 Package: apiplant
-Version: 0.8.2-1
+Version: 0.9.0-1
 Architecture: arm64
 Maintainer: Federico Rampazzo <federico@apiplant.com>
-Installed-Size: 91340
-Filename: pool/main/a/apiplant/apiplant_0.8.2-1_arm64.deb
-Size: 26994740
-MD5sum: 1a6685fe96917c03b1cb13a659ca5557
-SHA1: f095cc4dfd7977d679f368012fa90334a42b4fb9
-SHA256: 9ae20a8136f0709c7adffe1f4fb903cf80811cd6904268e668a4ed9316d6564c
+Installed-Size: 92556
+Filename: pool/main/a/apiplant/apiplant_0.9.0-1_arm64.deb
+Size: 27418444
+MD5sum: 17f9da951c46b24ff0acd919c9bfac44
+SHA1: 40b13c71de45f9b04aa010f56d42cfd187a9f5ec
+SHA256: fcf3e3a51ab94b3ac52a46da1184fc40ac735d97ca0faf19994d660a346f9639
 Section: web
 Priority: optional
 Homepage: https://github.com/apiplant/apiplant
