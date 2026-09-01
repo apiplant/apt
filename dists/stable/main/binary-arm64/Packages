@@ -63,6 +63,62 @@ Description: apiplant without TypeScript support (no V8)
  glibc 2.35, so it needs Debian 12 (bookworm) or newer, or Ubuntu 22.04 or
  newer.
 
+Package: nvidia-smi-live
+Version: 0.1.0-1
+Architecture: arm64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 376
+Filename: pool/main/n/nvidia-smi-live/nvidia-smi-live_0.1.0-1_arm64.deb
+Size: 170956
+MD5sum: 1017dd6b3d824dcd280c7fa2bb7c555c
+SHA1: 18519e6b859b86df90e829c5cc96be5fd5792bca
+SHA256: d35e061a2a5bcbc50b882212a51344e792556a731b4eedff869b115712446b36
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/nvidia-smi-live
+Description: Live-updating nvidia-smi with a minimal terminal UI
+ nvidia-smi-live re-renders every GPU on a timer — utilization, VRAM,
+ temperature, power and fan — as a minimal terminal UI, with a per-process
+ memory table laid out like nvidia-smi's. It also exports the same snapshot
+ as JSON, NDJSON or a Prometheus textfile.
+ .
+ The binary is under 400 KB and links only libc and libgcc_s. It loads
+ libnvidia-ml.so.1 from the NVIDIA driver at runtime via dlopen. It needs a
+ working NVIDIA driver to do anything useful; there is no driver dependency
+ to declare, because
+ the driver packages differ per vendor and generation. It is built against
+ glibc 2.35, so it needs Debian 12 (bookworm) or newer, or Ubuntu 22.04 or
+ newer.
+
+Package: nvidia-smi-live-web
+Version: 0.1.0-1
+Architecture: arm64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 2420
+Filename: pool/main/n/nvidia-smi-live/nvidia-smi-live-web_0.1.0-1_arm64.deb
+Size: 841464
+MD5sum: c6da71db2b1b38e49d7f6ee3a067ee7d
+SHA1: a1f0fbf20b74a615ee9d94947b155e20b13a8b94
+SHA256: aacea673f284a80179aaa77e55f726c32411708a184602f2a189ec33fb1e3127
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/nvidia-smi-live
+Description: Live nvidia-smi monitor for the browser
+ nvidia-smi-live-web runs a minimal local web server that streams live GPU
+ snapshots — utilization, VRAM, temperature, power and fan, plus a
+ per-process memory table — to a static Solid.js page that updates in place.
+ It binds 127.0.0.1:7680 by default; pass --port to change it.
+ .
+ The binary links only libc and libgcc_s. It loads libnvidia-ml.so.1 from the
+ NVIDIA driver at runtime via dlopen. It needs a working NVIDIA driver to do
+ anything useful; there is no driver dependency to declare, because the
+ driver packages differ per
+ vendor and generation. It is built against glibc 2.35, so it needs Debian 12
+ (bookworm) or newer, or Ubuntu 22.04 or newer.
+ .
+ The package ships a systemd unit, nvidia-smi-live-web.service, which
+ `systemctl enable --now nvidia-smi-live-web` starts.
+
 Package: portward
 Version: 0.3.2-1
 Architecture: arm64
