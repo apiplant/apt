@@ -64,15 +64,15 @@ Description: apiplant without TypeScript support (no V8)
  newer.
 
 Package: nvidia-smi-live
-Version: 0.1.0-1
+Version: 0.1.1-1
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 376
-Filename: pool/main/n/nvidia-smi-live/nvidia-smi-live_0.1.0-1_arm64.deb
-Size: 170956
-MD5sum: 1017dd6b3d824dcd280c7fa2bb7c555c
-SHA1: 18519e6b859b86df90e829c5cc96be5fd5792bca
-SHA256: d35e061a2a5bcbc50b882212a51344e792556a731b4eedff869b115712446b36
+Installed-Size: 372
+Filename: pool/main/n/nvidia-smi-live/nvidia-smi-live_0.1.1-1_arm64.deb
+Size: 170930
+MD5sum: 2c8cc7c08384c89fe99d2ab3de0bc76a
+SHA1: df61cab692cdcbe0487e93bc22ded81b0070ace9
+SHA256: ff878afbff1b0e72727b6aa3d938fe1d744dc02ce2c893a5d473e9112a2b5c40
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/nvidia-smi-live
@@ -91,15 +91,15 @@ Description: Live-updating nvidia-smi with a minimal terminal UI
  newer.
 
 Package: nvidia-smi-live-web
-Version: 0.1.0-1
+Version: 0.1.1-1
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 2420
-Filename: pool/main/n/nvidia-smi-live/nvidia-smi-live-web_0.1.0-1_arm64.deb
-Size: 841464
-MD5sum: c6da71db2b1b38e49d7f6ee3a067ee7d
-SHA1: a1f0fbf20b74a615ee9d94947b155e20b13a8b94
-SHA256: aacea673f284a80179aaa77e55f726c32411708a184602f2a189ec33fb1e3127
+Filename: pool/main/n/nvidia-smi-live/nvidia-smi-live-web_0.1.1-1_arm64.deb
+Size: 841466
+MD5sum: 8ca5520f5af06adb0bfbf6ad66f43663
+SHA1: f729c81e7c5fa19b651402290ccb57292867a0ba
+SHA256: 1df31e523617218b8e40eeeeb212d0290d289198872329dd6dfc8f1059b83373
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/nvidia-smi-live
