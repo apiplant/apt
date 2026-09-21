@@ -82,6 +82,26 @@ Description: Rust (candle) inference for GLiNER2 checkpoints
  classification, PII detection/redaction and LLM guardrails) locally via
  candle, downloading checkpoints from Hugging Face on first use.
 
+Package: laya-rs
+Version: 0.3.0
+Architecture: arm64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 8588
+Filename: pool/main/l/laya-rs/laya-rs_0.3.0-1_arm64.deb
+Size: 3036452
+MD5sum: 3e33f47cc5a1c88a8515fab431a91387
+SHA1: 9ef9bda534f17cb7df65464c388f35955d5511e2
+SHA256: 5852eb57dbdeabeb7d4725faa2645f71bf1478bad9349cd35284b59d24ba1dce
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/laya-rs
+Description: Rust (candle) inference for Laya's typed-decision engine
+ laya answers typed choice/score/noul questions over an arbitrary state
+ (text, email, ticket, or JSON) in a single non-autoregressive forward pass
+ through a ModernBERT/mmBERT encoder plus a from-scratch decision head — no
+ text generation, calibrated probabilities out. Point it at a local
+ convaiinnovations/laya checkpoint directory; weights are not bundled.
+
 Package: nvidia-smi-live
 Version: 0.1.1-1
 Architecture: arm64
