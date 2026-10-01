@@ -121,6 +121,26 @@ Description: Rust (candle) inference for Laya's typed-decision engine
  text generation, calibrated probabilities out. Point it at a local
  convaiinnovations/laya checkpoint directory; weights are not bundled.
 
+Package: locate-anything-rs
+Version: 0.1.0
+Architecture: arm64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 12404
+Filename: pool/main/l/locate-anything-rs/locate-anything-rs_0.1.0-1_arm64.deb
+Size: 3406140
+MD5sum: dedd7781a32ea80d1bf9ed09df3cfe15
+SHA1: 7b18ca44ab98ffe0610d4e96c8b4feef06116625
+SHA256: 3020b8537318caaeb7d262ca83e97ada28e4f9e25ebcc3526a61e953ff738d52
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/locate-anything-rs
+Description: Rust (candle) inference for nvidia/LocateAnything-3B visual grounding
+ locate-anything detects, grounds, points at and reads text in images
+ with nvidia/LocateAnything-3B (MoonViT + Qwen2.5 with Parallel Box
+ Decoding), locally via candle. The model weights (about 7.6 GB) are
+ downloaded from Hugging Face on first use into ~/.cache/locate-anything-
+ rs, or taken from --model DIR.
+
 Package: merge-safetensors-rs
 Version: 0.2.0
 Architecture: arm64
