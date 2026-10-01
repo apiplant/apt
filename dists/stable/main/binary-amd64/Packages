@@ -208,15 +208,15 @@ Description: Rust (candle) inference for Laya's typed-decision engine (CUDA + fl
  link; it does not by itself guarantee driver/toolkit compatibility.
 
 Package: locate-anything-rs
-Version: 0.1.0
+Version: 0.1.1
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 13444
-Filename: pool/main/l/locate-anything-rs/locate-anything-rs_0.1.0-1_amd64.deb
-Size: 3607708
-MD5sum: 51c0024a13177b06143c366c86f26ea2
-SHA1: 90831bdd1dd086faf866539fc67fdf9a116f8096
-SHA256: f96be3a89bc15418e78e3447a5a0ce5bc77d09a72e1fafd7455d6e43be9b76d7
+Installed-Size: 13448
+Filename: pool/main/l/locate-anything-rs/locate-anything-rs_0.1.1-1_amd64.deb
+Size: 3607738
+MD5sum: 2eed9b4fd2c0140f06bf4f067635179a
+SHA1: 7e3608e05dd246bfe3296ea48bc3ec16b535ebb0
+SHA256: eca4288bcb36c0c8940ab6c832a95d7a519e1268ab75a00e99a7b44fae5fe6b5
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/locate-anything-rs
@@ -228,20 +228,20 @@ Description: Rust (candle) inference for nvidia/LocateAnything-3B visual groundi
  rs, or taken from --model DIR.
 
 Package: locate-anything-rs-cuda
-Version: 0.1.0
+Version: 0.1.1
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 53968
+Installed-Size: 53964
 Depends: libcuda1
 Recommends: nvidia-cuda-toolkit | libcublas12
 Conflicts: locate-anything-rs
 Replaces: locate-anything-rs
 Provides: locate-anything-rs
-Filename: pool/main/l/locate-anything-rs/locate-anything-rs-cuda_0.1.0-1_amd64.deb
-Size: 9302572
-MD5sum: a1d3c7e02c5a15669407c776c9fdf1e5
-SHA1: 00bf5132d4b2345164ef8d362022120c759d3287
-SHA256: 219aa4a8ef221ba2b35c8bc99d99b348d4e9ad67fd8eb91fe737d931993eb21e
+Filename: pool/main/l/locate-anything-rs/locate-anything-rs-cuda_0.1.1-1_amd64.deb
+Size: 9304648
+MD5sum: d15e9c5ec813a579e4be6e4a10515c72
+SHA1: 02606f16292ec2c245b74c2b6bccfaaa6ef6942c
+SHA256: ba3260d1ed70c41aca27c9f07c6eaa8224b5e2f17b7923e134965827c8f75ffd
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/locate-anything-rs
