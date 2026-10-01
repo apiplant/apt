@@ -215,6 +215,25 @@ Description: Live nvidia-smi monitor for the browser
  The package ships a systemd unit, nvidia-smi-live-web.service, which
  `systemctl enable --now nvidia-smi-live-web` starts.
 
+Package: opendlss-rs
+Version: 0.1.1
+Architecture: arm64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 16076
+Depends: libvulkan1
+Filename: pool/main/o/opendlss-rs/opendlss-rs_0.1.1-1_arm64.deb
+Size: 3042446
+MD5sum: 5183ff4be36a8e322bb3fcc5ad602dc4
+SHA1: 35274c74ab198b69a613b84be1aa48207a65b5dd
+SHA256: 5993f50a028fdec2c1e63d8fb0aec16179ce105d600cf23b7be50e6f78e6cd92
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/opendlss-rs
+Description: Rust host and model tools for the OpenDLSS-NR neural renderer
+ opendlss-nr runs the OpenDLSS-NR network on an image through CUDA (when
+ the driver is present, loaded at run time) or wgpu (Vulkan, Metal), and
+ validates portable model directories. No model weights are bundled.
+
 Package: phonon-rs
 Version: 0.1.0
 Architecture: arm64
