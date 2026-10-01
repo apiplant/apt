@@ -82,6 +82,25 @@ Description: Rust (candle) inference for GLiNER2 checkpoints
  classification, PII detection/redaction and LLM guardrails) locally via
  candle, downloading checkpoints from Hugging Face on first use.
 
+Package: julia1-rs
+Version: 0.1.0
+Architecture: arm64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 30336
+Filename: pool/main/j/julia1-rs/julia1-rs_0.1.0-1_arm64.deb
+Size: 5072702
+MD5sum: 9bfd251162f1c2cdfc289848e187e6d1
+SHA1: 9e631c89c1ed140473e536313dd14b84d5df206f
+SHA256: c7f99e556e744b1e9040de754b77642f3537c6f259ec205544aed604f30b858b
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/julia1-rs
+Description: Rust CPU/CUDA inference runtime for the Julia-1 decision model
+ julia1 runs the Supersonic Labs Julia-1 decision model (typed choice,
+ score and noul questions answered in one bidirectional pass) with an
+ AVX-512 CPU backend or a CUDA BF16 tensor-core backend. Point it at a
+ Julia-1 checkpoint directory with --checkpoint or JULIA_CHECKPOINT.
+
 Package: laya-rs
 Version: 0.3.0
 Architecture: arm64

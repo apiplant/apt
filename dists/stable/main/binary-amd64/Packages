@@ -110,6 +110,54 @@ Description: Rust (candle) inference for GLiNER2 checkpoints (CUDA build)
  libcuda1 (installed by the NVIDIA driver package) satisfies the runtime
  link; it does not by itself guarantee driver/toolkit compatibility.
 
+Package: julia1-rs
+Version: 0.1.0
+Architecture: amd64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 30680
+Filename: pool/main/j/julia1-rs/julia1-rs_0.1.0-1_amd64.deb
+Size: 5411296
+MD5sum: 76e53dfd2fead8b2a0bb15bc10bb7d72
+SHA1: 510b7814bbc18bcfddecf2766cf313ce36e158e9
+SHA256: 3ff5fbceb30be5adbb3d4077f2a3125bb7b3618d86d319080a0e86119ea5733b
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/julia1-rs
+Description: Rust CPU/CUDA inference runtime for the Julia-1 decision model
+ julia1 runs the Supersonic Labs Julia-1 decision model (typed choice,
+ score and noul questions answered in one bidirectional pass) with an
+ AVX-512 CPU backend or a CUDA BF16 tensor-core backend. Point it at a
+ Julia-1 checkpoint directory with --checkpoint or JULIA_CHECKPOINT.
+
+Package: julia1-rs-cuda
+Version: 0.1.0
+Architecture: amd64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 33416
+Depends: libcuda1
+Recommends: nvidia-cuda-toolkit | libcublas12
+Conflicts: julia1-rs
+Replaces: julia1-rs
+Provides: julia1-rs
+Filename: pool/main/j/julia1-rs/julia1-rs-cuda_0.1.0-1_amd64.deb
+Size: 5761654
+MD5sum: d66f0bd394af76ee7625c71dff52df54
+SHA1: ade0e4080bf7307ad911190c819315a102ae7a26
+SHA256: 68a8fa0118bebc9c83e3b88b61d01fe0a7c593817433675901739110b37029d8
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/julia1-rs
+Description: Rust CPU/CUDA inference runtime for the Julia-1 decision model (CUDA build)
+ julia1 runs the Supersonic Labs Julia-1 decision model (typed choice,
+ score and noul questions answered in one bidirectional pass) with an
+ AVX-512 CPU backend or a CUDA BF16 tensor-core backend. Point it at a
+ Julia-1 checkpoint directory with --checkpoint or JULIA_CHECKPOINT. This
+ build is linked against CUDA. Needs an NVIDIA GPU with compute
+ capability 8.0+ and the cuBLAS runtime; SASS is built for
+ sm_80/86/89/90/120. libcuda1 (installed by the NVIDIA driver package)
+ satisfies the runtime link; it does not by itself guarantee
+ driver/toolkit compatibility.
+
 Package: laya-rs
 Version: 0.3.0
 Architecture: amd64
