@@ -102,6 +102,24 @@ Description: Rust (candle) inference for Laya's typed-decision engine
  text generation, calibrated probabilities out. Point it at a local
  convaiinnovations/laya checkpoint directory; weights are not bundled.
 
+Package: merge-safetensors-rs
+Version: 0.2.0
+Architecture: arm64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 1372
+Filename: pool/main/m/merge-safetensors-rs/merge-safetensors-rs_0.2.0-1_arm64.deb
+Size: 485506
+MD5sum: d1c0c3799ead6655772b1d13ea9abb25
+SHA1: 6d13a982ff9ba414fd3717227e8922a978d45309
+SHA256: 9f02231cddd8d0271e4837a63ede7c44bed84e9c66d601f7a1042bc0f799b5f7
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/merge-safetensors-rs
+Description: Merge sharded .safetensors files into one, streaming
+ merge-safetensors merges sharded .safetensors files into a single file,
+ driven by a *.safetensors.index.json, streaming tensor bytes shard-to-
+ file so peak memory stays bounded regardless of model size.
+
 Package: nvidia-smi-live
 Version: 0.1.1-1
 Architecture: arm64

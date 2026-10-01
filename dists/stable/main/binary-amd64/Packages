@@ -159,6 +159,24 @@ Description: Rust (candle) inference for Laya's typed-decision engine (CUDA + fl
  libcuda1 (installed by the NVIDIA driver package) satisfies the runtime
  link; it does not by itself guarantee driver/toolkit compatibility.
 
+Package: merge-safetensors-rs
+Version: 0.2.0
+Architecture: amd64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 1420
+Filename: pool/main/m/merge-safetensors-rs/merge-safetensors-rs_0.2.0-1_amd64.deb
+Size: 516192
+MD5sum: 1c6432595ae3dc3d8f36a2be5a85ee43
+SHA1: 8163125de94761b8dba8b4053f4f9f7526c5b00c
+SHA256: cad5c2d29031829cd1df953c8c3a34d2c99091c2ded50ef635c879073b0b669c
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/merge-safetensors-rs
+Description: Merge sharded .safetensors files into one, streaming
+ merge-safetensors merges sharded .safetensors files into a single file,
+ driven by a *.safetensors.index.json, streaming tensor bytes shard-to-
+ file so peak memory stays bounded regardless of model size.
+
 Package: nvidia-smi-live
 Version: 0.1.1-1
 Architecture: amd64
