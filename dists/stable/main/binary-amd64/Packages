@@ -330,6 +330,55 @@ Description: Live nvidia-smi monitor for the browser
  The package ships a systemd unit, nvidia-smi-live-web.service, which
  `systemctl enable --now nvidia-smi-live-web` starts.
 
+Package: phonon-rs
+Version: 0.1.0
+Architecture: amd64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 20316
+Depends: libasound2
+Filename: pool/main/p/phonon-rs/phonon-rs_0.1.0-1_amd64.deb
+Size: 5254176
+MD5sum: 98e6d395eb4bd5ec8983c1f810c261de
+SHA1: 6971e3551dd4666f50814910200f8b099d9a63cd
+SHA256: f55c6d2e8ca6ebaff0569ae05c02f0a9d5bb739dbbd8af94797e4e3295abe81b
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/phonon-rs
+Description: Phonon-2 speech-to-text CLI and dictation daemon (candle)
+ phonon transcribes audio files or the microphone with Phonon-2, the
+ five-value quantised Parakeet-TDT-0.6B-v3, natively on candle. phonon-
+ dictate (Linux only) is a push-to-talk dictation daemon. The model is
+ not bundled: pass --model or set PHONON_MODEL to the unpacked Phonon-2
+ model directory or its .tar.zst.
+
+Package: phonon-rs-cuda
+Version: 0.1.0
+Architecture: amd64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 31696
+Depends: libasound2, libcuda1
+Recommends: nvidia-cuda-toolkit | libcublas12
+Conflicts: phonon-rs
+Replaces: phonon-rs
+Provides: phonon-rs
+Filename: pool/main/p/phonon-rs/phonon-rs-cuda_0.1.0-1_amd64.deb
+Size: 6013304
+MD5sum: 0f29730b2329abd3e34947c5c39b3aa2
+SHA1: 3f567b159cc1f5712a714cf6a0d685c9673f5a37
+SHA256: 1e7b7b709a1733284212b765b580a5ab01f83bad16d06e00fd0c31a23b6b413a
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/phonon-rs
+Description: Phonon-2 speech-to-text CLI and dictation daemon (candle) (CUDA build)
+ phonon transcribes audio files or the microphone with Phonon-2, the
+ five-value quantised Parakeet-TDT-0.6B-v3, natively on candle. phonon-
+ dictate (Linux only) is a push-to-talk dictation daemon. The model is
+ not bundled: pass --model or set PHONON_MODEL to the unpacked Phonon-2
+ model directory or its .tar.zst. This build is linked against CUDA.
+ Needs an NVIDIA GPU (Turing or newer). libcuda1 (installed by the NVIDIA
+ driver package) satisfies the runtime link; it does not by itself
+ guarantee driver/toolkit compatibility.
+
 Package: portward
 Version: 0.3.2-1
 Architecture: amd64
