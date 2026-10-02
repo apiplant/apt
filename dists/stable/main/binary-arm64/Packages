@@ -216,23 +216,25 @@ Description: Live nvidia-smi monitor for the browser
  `systemctl enable --now nvidia-smi-live-web` starts.
 
 Package: opendlss-rs
-Version: 0.1.1
+Version: 0.1.2
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 16076
+Installed-Size: 16120
 Depends: libvulkan1
-Filename: pool/main/o/opendlss-rs/opendlss-rs_0.1.1-1_arm64.deb
-Size: 3042446
-MD5sum: 5183ff4be36a8e322bb3fcc5ad602dc4
-SHA1: 35274c74ab198b69a613b84be1aa48207a65b5dd
-SHA256: 5993f50a028fdec2c1e63d8fb0aec16179ce105d600cf23b7be50e6f78e6cd92
+Filename: pool/main/o/opendlss-rs/opendlss-rs_0.1.2-1_arm64.deb
+Size: 3045914
+MD5sum: 00a6a7e67482e068f3b4af2cb66b144a
+SHA1: f8d4e28be24c1dce6d7f9c63702005c3fc3e9d3f
+SHA256: 9f4f46d465b1c655698d9faa717bb7fcfa0e2ed285316c50e9498762152236cb
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/opendlss-rs
 Description: Rust host and model tools for the OpenDLSS-NR neural renderer
- opendlss-nr runs the OpenDLSS-NR network on an image through CUDA (when
- the driver is present, loaded at run time) or wgpu (Vulkan, Metal), and
- validates portable model directories. No model weights are bundled.
+ opendlss runs the OpenDLSS-NR network on an image through CUDA (when the
+ driver is present, loaded at run time) or wgpu (Vulkan, Metal), and
+ validates portable model directories. No weights are bundled: `opendlss
+ setup` extracts them from your own nvngx_dlssnr.dll into
+ ~/.config/opendlss.
 
 Package: phonon-rs
 Version: 0.1.1
