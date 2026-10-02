@@ -107,10 +107,10 @@ Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 8648
 Filename: pool/main/l/laya-rs/laya-rs_0.3.1-1_arm64.deb
-Size: 3040192
-MD5sum: 22569716dab155a1401d6da5ee4b0e22
-SHA1: 2143252fd28489190d1a262373eba2f40cbff93b
-SHA256: 68d470e8a685454c7e80bd955d68c048458d52caa966672c466913d61617661d
+Size: 3045078
+MD5sum: 8998afb16f0ab96430c902b89e1f0fd9
+SHA1: 5ccd9dd142cc96952f32bca2866ce1802dc8ac7c
+SHA256: 290538f3fa47e857a3f5a6a592f166dedc852c13f0b20c17062264351bf83fd8
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/laya-rs

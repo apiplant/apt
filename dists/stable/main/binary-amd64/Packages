@@ -164,10 +164,10 @@ Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 10148
 Filename: pool/main/l/laya-rs/laya-rs_0.3.1-1_amd64.deb
-Size: 3299644
-MD5sum: 1e4ecf612993384c24aeaaeda46b8f50
-SHA1: f8c6ba17d69c9bd85c2302ccb848aee40d64848b
-SHA256: 7b742b1d9ed41dee4a06b351459b227da33f3ac362f7c4b21e86f9964327c5aa
+Size: 3299648
+MD5sum: af871e2956f5c9e7082b042eaee8b2d7
+SHA1: 68dd5fe5c36c093b2eb5bc9bf543c1ea3c9b6702
+SHA256: 6a942b0721eae8e1841f305e15d39b2e1cac860d00fc76efff96fcad06a737cb
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/laya-rs
@@ -188,10 +188,10 @@ Conflicts: laya-rs
 Replaces: laya-rs
 Provides: laya-rs
 Filename: pool/main/l/laya-rs/laya-rs-flash-attn_0.3.1-1_amd64.deb
-Size: 64365436
-MD5sum: 5790ab270f255caeecc95c9a949e9f2b
-SHA1: 128f84a63442694dc6416786e783d97c7121f6ea
-SHA256: 612592b0f2aaa9c1ed8b6df770288f31522c3ab6e444ee37a9707a8ce89b395f
+Size: 64364970
+MD5sum: 05589a056c0ac911f5bd529ed416d3ed
+SHA1: 1c5a1fcb99ab0e71eeec4c5f670f46013cfc3389
+SHA256: e44982007273ccb7126dd543abb7b9b3d163370e3ef2c5c6bdf2ed95b4ad6e1b
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/laya-rs
