@@ -122,15 +122,15 @@ Description: Rust (candle) inference for Laya's typed-decision engine
  convaiinnovations/laya checkpoint directory; weights are not bundled.
 
 Package: locate-anything-rs
-Version: 0.1.1
+Version: 0.1.2
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 12396
-Filename: pool/main/l/locate-anything-rs/locate-anything-rs_0.1.1-1_arm64.deb
-Size: 3406540
-MD5sum: e1c95e06a8de9af07d15dffb67f87200
-SHA1: e3d1d5ff38f45eb95e9997297034a386b8f0d813
-SHA256: 92389939729b7d7fe2e77e75e11aa898b03ccc7ef15fcd0c505c508b54edcadf
+Installed-Size: 12404
+Filename: pool/main/l/locate-anything-rs/locate-anything-rs_0.1.2-1_arm64.deb
+Size: 3404184
+MD5sum: 6b23d5afd34f77d7a272cad4f24891ee
+SHA1: 746690be14bf1c71b772bbb809f8697b4420eaa2
+SHA256: 64dbabd9ab76ebaf85277ece4e55dcbaf96524d7e22264b6ede1e0947305a1dd
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/locate-anything-rs
