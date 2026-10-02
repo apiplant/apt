@@ -142,15 +142,15 @@ Description: Rust (candle) inference for nvidia/LocateAnything-3B visual groundi
  rs, or taken from --model DIR.
 
 Package: merge-safetensors-rs
-Version: 0.2.1
+Version: 0.2.2
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 1372
-Filename: pool/main/m/merge-safetensors-rs/merge-safetensors-rs_0.2.1-1_arm64.deb
-Size: 485588
-MD5sum: a06d005fe6e5c1ebe813e03e2b6af61a
-SHA1: d8393231761dbbcf0406f82b4e036f575def429c
-SHA256: 933bc31b9ee80d698aa654c4986f6f7e276c2af5afc424617321f6c2e904b5c7
+Filename: pool/main/m/merge-safetensors-rs/merge-safetensors-rs_0.2.2-1_arm64.deb
+Size: 485810
+MD5sum: ae859920aff5f040b6b1bf61e5b28414
+SHA1: 9910a0497aaf3276db6610f845f5dfdfa56d7016
+SHA256: bb6fc9888d2d997912edab31671c71fc44f37981a0fc0e8d551d1a87b18606bc
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/merge-safetensors-rs
