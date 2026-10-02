@@ -64,15 +64,15 @@ Description: apiplant without TypeScript support (no V8)
  newer.
 
 Package: gliner-rs
-Version: 0.2.3
+Version: 0.2.4
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 51964
-Filename: pool/main/g/gliner-rs/gliner-rs_0.2.3-1_arm64.deb
-Size: 13318558
-MD5sum: 6142edd05ffb657772d7f1f63a51ca79
-SHA1: 7dde861791ae35bc4fe6289bb55dc78268b6ec88
-SHA256: d7a621e4f361457b3d6027617c9abd1d0f272983c905c03babc1eeb5e37852d9
+Installed-Size: 52120
+Filename: pool/main/g/gliner-rs/gliner-rs_0.2.4-1_arm64.deb
+Size: 13393448
+MD5sum: 84606797a75864798fc3b6414c7294bb
+SHA1: ba1cbd56dbc765ef30b106b5114043916622b9b5
+SHA256: 79efbfcecb8769e46cde481eadb9f7788712a7d390c73bee9a9cfe8d9709fa11
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/gliner-rs
