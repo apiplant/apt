@@ -83,15 +83,15 @@ Description: Rust (candle) inference for GLiNER2 checkpoints
  candle, downloading checkpoints from Hugging Face on first use.
 
 Package: julia1-rs
-Version: 0.1.0
+Version: 0.1.1
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 30336
-Filename: pool/main/j/julia1-rs/julia1-rs_0.1.0-1_arm64.deb
-Size: 5072702
-MD5sum: 9bfd251162f1c2cdfc289848e187e6d1
-SHA1: 9e631c89c1ed140473e536313dd14b84d5df206f
-SHA256: c7f99e556e744b1e9040de754b77642f3537c6f259ec205544aed604f30b858b
+Filename: pool/main/j/julia1-rs/julia1-rs_0.1.1-1_arm64.deb
+Size: 5055278
+MD5sum: e7400b0ef06a71d3ee36506db3c7c180
+SHA1: aa3319ad21a066f23da3af0b15491af40e1c92de
+SHA256: eab20e779120b1f4d756d73bedd8671acc424386cd8a2cb633b8509b97e528c0
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/julia1-rs
