@@ -111,15 +111,15 @@ Description: Rust (candle) inference for GLiNER2 checkpoints (CUDA build)
  link; it does not by itself guarantee driver/toolkit compatibility.
 
 Package: julia1-rs
-Version: 0.2.0
+Version: 0.2.1
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 65520
-Filename: pool/main/j/julia1-rs/julia1-rs_0.2.0-1_amd64.deb
-Size: 11422154
-MD5sum: f787e63ee006acf707269489fbd059fb
-SHA1: 0a0f65092bda35c73e85e557ce7700a0ce9902d8
-SHA256: 3985e878cb71af17f3f24fe9364f3b049145a9f10816c40497a30717ab0680e7
+Filename: pool/main/j/julia1-rs/julia1-rs_0.2.1-1_amd64.deb
+Size: 11417958
+MD5sum: 61ebe80de32d90f1f341e9ee77d9c7f8
+SHA1: c8f1bd2ac9537bab88a5fa6d30bc98a89a76a128
+SHA256: f01be29b5abd3d5d6fb7cc7659f7aed91220cf0af83087aadc40fef60b96c9ab
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/julia1-rs
@@ -130,7 +130,7 @@ Description: Rust CPU/CUDA inference runtime for the Julia-1 decision model
  Julia-1 checkpoint directory with --checkpoint or JULIA_CHECKPOINT.
 
 Package: julia1-rs-cuda
-Version: 0.2.0
+Version: 0.2.1
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 68236
@@ -139,11 +139,11 @@ Recommends: nvidia-cuda-toolkit | libcublas12
 Conflicts: julia1-rs
 Replaces: julia1-rs
 Provides: julia1-rs
-Filename: pool/main/j/julia1-rs/julia1-rs-cuda_0.2.0-1_amd64.deb
-Size: 11801226
-MD5sum: bf6121abf3db47d2dc2d4e0380f2a532
-SHA1: 7440396fc0345ff026035226badc181d8edd823a
-SHA256: cce71a199f847f6abf9113ce2cf576dac17a504549f841865adba88373176092
+Filename: pool/main/j/julia1-rs/julia1-rs-cuda_0.2.1-1_amd64.deb
+Size: 11871174
+MD5sum: f35d67988692170cee46924f21bb1d93
+SHA1: e2d89feb6333eea8aae2f5436807e88d3b1ad0d3
+SHA256: 190fc0a5ca7ca519e82341f9d0ea7ba6e9cecf0616117955f23c0d9178b6fa08
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/julia1-rs
