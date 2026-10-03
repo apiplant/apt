@@ -159,15 +159,15 @@ Description: Rust CPU/CUDA inference runtime for the Julia-1 decision model (CUD
  driver/toolkit compatibility.
 
 Package: laya-rs
-Version: 0.3.1
+Version: 0.4.0
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 10148
-Filename: pool/main/l/laya-rs/laya-rs_0.3.1-1_amd64.deb
-Size: 3299648
-MD5sum: af871e2956f5c9e7082b042eaee8b2d7
-SHA1: 68dd5fe5c36c093b2eb5bc9bf543c1ea3c9b6702
-SHA256: 6a942b0721eae8e1841f305e15d39b2e1cac860d00fc76efff96fcad06a737cb
+Installed-Size: 12404
+Filename: pool/main/l/laya-rs/laya-rs_0.4.0-1_amd64.deb
+Size: 4036010
+MD5sum: 7ac5433798d8c00e1d819ce442d6e6fa
+SHA1: 207c15ac6d8cfd1374e45c319329b442c95605fa
+SHA256: 785bbbb7d87659f9d1859d089bedcc9854e709b33b01cab67e89c97af944391b
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/laya-rs
@@ -179,19 +179,19 @@ Description: Rust (candle) inference for Laya's typed-decision engine
  convaiinnovations/laya checkpoint directory; weights are not bundled.
 
 Package: laya-rs-flash-attn
-Version: 0.3.1
+Version: 0.4.0
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 215672
+Installed-Size: 217944
 Depends: libcuda1
 Conflicts: laya-rs
 Replaces: laya-rs
 Provides: laya-rs
-Filename: pool/main/l/laya-rs/laya-rs-flash-attn_0.3.1-1_amd64.deb
-Size: 64364970
-MD5sum: 05589a056c0ac911f5bd529ed416d3ed
-SHA1: 1c5a1fcb99ab0e71eeec4c5f670f46013cfc3389
-SHA256: e44982007273ccb7126dd543abb7b9b3d163370e3ef2c5c6bdf2ed95b4ad6e1b
+Filename: pool/main/l/laya-rs/laya-rs-flash-attn_0.4.0-1_amd64.deb
+Size: 65122748
+MD5sum: 0e1160faa844dd555e77f80abd4b397d
+SHA1: 6b0812ad607da2aeab7c72f60746b1bb568b3628
+SHA256: 26bfdd2882188cf68da82ca88641ea7995d9472c78309fa992a76580eafb614c
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/laya-rs

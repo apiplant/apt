@@ -102,15 +102,15 @@ Description: Rust CPU/CUDA inference runtime for the Julia-1 decision model
  Julia-1 checkpoint directory with --checkpoint or JULIA_CHECKPOINT.
 
 Package: laya-rs
-Version: 0.3.1
+Version: 0.4.0
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 8648
-Filename: pool/main/l/laya-rs/laya-rs_0.3.1-1_arm64.deb
-Size: 3045078
-MD5sum: 8998afb16f0ab96430c902b89e1f0fd9
-SHA1: 5ccd9dd142cc96952f32bca2866ce1802dc8ac7c
-SHA256: 290538f3fa47e857a3f5a6a592f166dedc852c13f0b20c17062264351bf83fd8
+Installed-Size: 10792
+Filename: pool/main/l/laya-rs/laya-rs_0.4.0-1_arm64.deb
+Size: 3745786
+MD5sum: 40684a36065ff9843f776ee45c3a15d6
+SHA1: 2f385ff3a3ed68ae288395f4ca438152f70f0c02
+SHA256: b892e7c7c94880ab041b696e25656dd54b8055ae25d797a21732c546427e4635
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/laya-rs
