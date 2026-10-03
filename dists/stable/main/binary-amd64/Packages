@@ -64,15 +64,15 @@ Description: apiplant without TypeScript support (no V8)
  newer.
 
 Package: gliner-rs
-Version: 0.3.0
+Version: 0.3.1
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 63296
-Filename: pool/main/g/gliner-rs/gliner-rs_0.3.0-1_amd64.deb
-Size: 15528716
-MD5sum: 1727ad960913193d161744c78de32a8a
-SHA1: 4cc782c7f015ea91cd023569cb8d56e279a8080a
-SHA256: 2169e9323247af40058baaea21ef5edbc967e868bfd6809e84ba67cc6f1978a5
+Installed-Size: 63300
+Filename: pool/main/g/gliner-rs/gliner-rs_0.3.1-1_amd64.deb
+Size: 15534808
+MD5sum: a02ee359f0308d373ea36503c585c7ea
+SHA1: 4607292aa13a9254ecc5254102cfbd21255d07d6
+SHA256: 869c93a37f465186b4d058bc9751b6fbdcbff13be371b7363719f5dbfcfb7a58
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/gliner-rs
@@ -83,7 +83,7 @@ Description: Rust (candle) inference for GLiNER2 checkpoints
  candle, downloading checkpoints from Hugging Face on first use.
 
 Package: gliner-rs-cuda
-Version: 0.3.0
+Version: 0.3.1
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 229560
@@ -91,11 +91,11 @@ Depends: libcuda1
 Conflicts: gliner-rs
 Replaces: gliner-rs
 Provides: gliner-rs
-Filename: pool/main/g/gliner-rs/gliner-rs-cuda_0.3.0-1_amd64.deb
-Size: 41024204
-MD5sum: 6e6afdf964a05bf6e15034b45e4545f9
-SHA1: e2b4e43dea4a100b012a217e740e246200f13634
-SHA256: 3ba21c6f98b2af657a0b73908718a9d74dd60e4e558711f9b086c8c6555edf36
+Filename: pool/main/g/gliner-rs/gliner-rs-cuda_0.3.1-1_amd64.deb
+Size: 41032366
+MD5sum: 0c4bd3902dd82d355f17e0e2df5e3cc6
+SHA1: 210b57e245f249ce468465b2b6322652182f30cd
+SHA256: 8003886d4a101b67847f78b6047270781ae5fce28e90d3154105ee5556f434b0
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/gliner-rs
