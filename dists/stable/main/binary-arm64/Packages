@@ -63,6 +63,27 @@ Description: apiplant without TypeScript support (no V8)
  glibc 2.35, so it needs Debian 12 (bookworm) or newer, or Ubuntu 22.04 or
  newer.
 
+Package: fluid-speech-rs
+Version: 0.1.0
+Architecture: arm64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 18980
+Depends: libasound2
+Filename: pool/main/f/fluid-speech-rs/fluid-speech-rs_0.1.0-1_arm64.deb
+Size: 5860814
+MD5sum: 1e993f3799f6ba1a467525c0eafdee60
+SHA1: fe820099625355511baf764e709c426bfa7a9e80
+SHA256: 2a0ce979660229d27afc14148c2a01561c938284827a82a470e09e97da7b05f6
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/fluid-speech-rs
+Description: Fluid Speech Mini speech-to-text CLI and dictation daemon (candle)
+ fluid-speech transcribes audio files or the microphone with Fluid Speech
+ Mini (a palettised Parakeet TDT 0.6B), natively on candle. fluid-dictate is
+ a push-to-talk dictation daemon (Linux and macOS). The model (327 MB) is
+ downloaded from Hugging Face on first use into ~/.cache/fluid-speech-rs, or
+ taken from --model.
+
 Package: gliner-rs
 Version: 0.3.1
 Architecture: arm64

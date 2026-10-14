@@ -86,6 +86,55 @@ Description: Fish Audio Drama 3 text-to-speech on a single 24 GB GPU (CUDA)
  satisfies the runtime link; it does not by itself guarantee
  driver/toolkit compatibility.
 
+Package: fluid-speech-rs
+Version: 0.1.0
+Architecture: amd64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 22044
+Depends: libasound2
+Filename: pool/main/f/fluid-speech-rs/fluid-speech-rs_0.1.0-1_amd64.deb
+Size: 6435316
+MD5sum: 013e846d77e07cf7c4b1f1d778ead4e3
+SHA1: f1c8bfe6c4e8bdceb0807d40bdca00502ee82084
+SHA256: 14c5bdadfda57e8fb3ca5de0094e3ec7d4779e336c22bc83832e9bf557856f0c
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/fluid-speech-rs
+Description: Fluid Speech Mini speech-to-text CLI and dictation daemon (candle)
+ fluid-speech transcribes audio files or the microphone with Fluid Speech
+ Mini (a palettised Parakeet TDT 0.6B), natively on candle. fluid-dictate is
+ a push-to-talk dictation daemon (Linux and macOS). The model (327 MB) is
+ downloaded from Hugging Face on first use into ~/.cache/fluid-speech-rs, or
+ taken from --model.
+
+Package: fluid-speech-rs-cuda
+Version: 0.1.0
+Architecture: amd64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 31956
+Depends: libasound2, libcuda1
+Recommends: nvidia-cuda-toolkit | libcublas12
+Conflicts: fluid-speech-rs
+Replaces: fluid-speech-rs
+Provides: fluid-speech-rs
+Filename: pool/main/f/fluid-speech-rs/fluid-speech-rs-cuda_0.1.0-1_amd64.deb
+Size: 7288702
+MD5sum: 68a5ae2c76b321f0cfbfb632b413772e
+SHA1: 95defa6b55c8e166f5d9e9aaf29d6f75757c4306
+SHA256: 936d6aea0ed4371c2723b91b917ad1e6028b7b8cb7fb4ac9a846b1add2e546d8
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/fluid-speech-rs
+Description: Fluid Speech Mini speech-to-text CLI and dictation daemon (candle) (CUDA build)
+ fluid-speech transcribes audio files or the microphone with Fluid Speech
+ Mini (a palettised Parakeet TDT 0.6B), natively on candle. fluid-dictate is
+ a push-to-talk dictation daemon (Linux and macOS). The model (327 MB) is
+ downloaded from Hugging Face on first use into ~/.cache/fluid-speech-rs, or
+ taken from --model. This build is linked against
+ CUDA. Needs an NVIDIA GPU (Turing or newer). libcuda1 (installed by the
+ NVIDIA driver package) satisfies the runtime link; it does not by itself
+ guarantee driver/toolkit compatibility.
+
 Package: gliner-rs
 Version: 0.3.1
 Architecture: amd64
