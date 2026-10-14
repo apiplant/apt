@@ -64,16 +64,16 @@ Description: apiplant without TypeScript support (no V8)
  newer.
 
 Package: fluid-speech-rs
-Version: 0.1.0
+Version: 0.1.4
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 18980
+Installed-Size: 18976
 Depends: libasound2
-Filename: pool/main/f/fluid-speech-rs/fluid-speech-rs_0.1.0-1_arm64.deb
-Size: 5860814
-MD5sum: 1e993f3799f6ba1a467525c0eafdee60
-SHA1: fe820099625355511baf764e709c426bfa7a9e80
-SHA256: 2a0ce979660229d27afc14148c2a01561c938284827a82a470e09e97da7b05f6
+Filename: pool/main/f/fluid-speech-rs/fluid-speech-rs_0.1.4-1_arm64.deb
+Size: 5860676
+MD5sum: e70c703b9a27081dcb42166fb6fd68b2
+SHA1: c56c68b138b63452d453df44b3de40bf73a5f7a5
+SHA256: 7c0d7b07abe9272d969a42b30d439c8f10a08cfc8ab47ebb1e56c8c6e41f1874
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/fluid-speech-rs

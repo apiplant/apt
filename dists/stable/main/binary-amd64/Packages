@@ -87,16 +87,16 @@ Description: Fish Audio Drama 3 text-to-speech on a single 24 GB GPU (CUDA)
  driver/toolkit compatibility.
 
 Package: fluid-speech-rs
-Version: 0.1.0
+Version: 0.1.4
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 22044
 Depends: libasound2
-Filename: pool/main/f/fluid-speech-rs/fluid-speech-rs_0.1.0-1_amd64.deb
-Size: 6435316
-MD5sum: 013e846d77e07cf7c4b1f1d778ead4e3
-SHA1: f1c8bfe6c4e8bdceb0807d40bdca00502ee82084
-SHA256: 14c5bdadfda57e8fb3ca5de0094e3ec7d4779e336c22bc83832e9bf557856f0c
+Filename: pool/main/f/fluid-speech-rs/fluid-speech-rs_0.1.4-1_amd64.deb
+Size: 6440844
+MD5sum: d376ee81b145c10307f1e997562f3713
+SHA1: 10743cba2025d1f44c96e8afb0662bc2b05f3262
+SHA256: a66558746ad025e896ec8f0593c2ae398d96d9231eb2d95eef7a1e061bfc846d
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/fluid-speech-rs
@@ -108,7 +108,7 @@ Description: Fluid Speech Mini speech-to-text CLI and dictation daemon (candle)
  taken from --model.
 
 Package: fluid-speech-rs-cuda
-Version: 0.1.0
+Version: 0.1.4
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 31956
@@ -117,11 +117,11 @@ Recommends: nvidia-cuda-toolkit | libcublas12
 Conflicts: fluid-speech-rs
 Replaces: fluid-speech-rs
 Provides: fluid-speech-rs
-Filename: pool/main/f/fluid-speech-rs/fluid-speech-rs-cuda_0.1.0-1_amd64.deb
-Size: 7288702
-MD5sum: 68a5ae2c76b321f0cfbfb632b413772e
-SHA1: 95defa6b55c8e166f5d9e9aaf29d6f75757c4306
-SHA256: 936d6aea0ed4371c2723b91b917ad1e6028b7b8cb7fb4ac9a846b1add2e546d8
+Filename: pool/main/f/fluid-speech-rs/fluid-speech-rs-cuda_0.1.4-1_amd64.deb
+Size: 7290320
+MD5sum: 2d71b87d9f9d39cc92cd05f022a19345
+SHA1: 8ee11cefc1ab9a75a564bb1b75f4532673243ef4
+SHA256: cff3c5ed36e91d9378c636389801c027b8b72eeb9daaadc9b5c35edd5e87251e
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/fluid-speech-rs
