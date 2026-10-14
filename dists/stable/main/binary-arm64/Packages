@@ -258,16 +258,16 @@ Description: Rust host and model tools for the OpenDLSS-NR neural renderer
  ~/.config/opendlss.
 
 Package: phonon-rs
-Version: 0.1.3
+Version: 0.1.4
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 21268
+Installed-Size: 21260
 Depends: libasound2
-Filename: pool/main/p/phonon-rs/phonon-rs_0.1.3-1_arm64.deb
-Size: 6417656
-MD5sum: 6158fdf6f88aef3bc9003b70ea7938fa
-SHA1: e94e49d640d1f688a2a2eee017a8f4ba1e8557a7
-SHA256: f9fb3ab92f8906638e9d5369dc0e178b7eed6ba548e0fe4711f1fadf4d91b582
+Filename: pool/main/p/phonon-rs/phonon-rs_0.1.4-1_arm64.deb
+Size: 6416790
+MD5sum: e7f03d5094baf0d361dcaf6d116065ce
+SHA1: c6880edebc2c72591a1e60c3ff155bd94b01ac16
+SHA256: 1ec7869b4f08752cc183a4642d3b3c04f6dc81848f67d612567b90846e049960
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/phonon-rs

@@ -424,16 +424,16 @@ Description: Rust host and model tools for the OpenDLSS-NR neural renderer
  ~/.config/opendlss.
 
 Package: phonon-rs
-Version: 0.1.3
+Version: 0.1.4
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 24864
 Depends: libasound2
-Filename: pool/main/p/phonon-rs/phonon-rs_0.1.3-1_amd64.deb
-Size: 7078728
-MD5sum: a06412e3afc25a5338bf4ce2267d6731
-SHA1: f0dfdbe988b59be286edba62e4e5b6cca70fa27f
-SHA256: 4ad28465b7ee1c91894ad73eed0ea9aa62748bc716a7783688db47069bd9bbd6
+Filename: pool/main/p/phonon-rs/phonon-rs_0.1.4-1_amd64.deb
+Size: 7078690
+MD5sum: 055f7d45460d7f0bb4911502f38232f5
+SHA1: 57b12944b06613fa4a47d44fa1c337f60f05c915
+SHA256: e9e687ae5943d37bfa3816aac39b256ce18442f94ec9ed60ffe315808bc6ddc1
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/phonon-rs
@@ -445,7 +445,7 @@ Description: Phonon-2 speech-to-text CLI and dictation daemon (candle)
  ~/.cache/phonon-rs, or taken from --model.
 
 Package: phonon-rs-cuda
-Version: 0.1.3
+Version: 0.1.4
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 36228
@@ -454,11 +454,11 @@ Recommends: nvidia-cuda-toolkit | libcublas12
 Conflicts: phonon-rs
 Replaces: phonon-rs
 Provides: phonon-rs
-Filename: pool/main/p/phonon-rs/phonon-rs-cuda_0.1.3-1_amd64.deb
-Size: 7753114
-MD5sum: e2dc4230e49c691b5c9a1c1d869ac3fd
-SHA1: a501e7f5c3ee3afa486b23a3cb496ef86627d726
-SHA256: 33dc39d90a17ef154cde7dc4c04b80c50b5be956df7a7d399c021a88f2e26513
+Filename: pool/main/p/phonon-rs/phonon-rs-cuda_0.1.4-1_amd64.deb
+Size: 7751538
+MD5sum: 5baf51021f0d5d76ddd536a32a917516
+SHA1: b685ab7463b9daef39d46c6a19c06955d8ac6349
+SHA256: 7f189d1cfec4b3db20808ff00e3ed3d24f5e0cdea4d8930a6f2898f8a693d6c9
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/phonon-rs
