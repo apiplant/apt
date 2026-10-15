@@ -64,16 +64,16 @@ Description: apiplant without TypeScript support (no V8)
  newer.
 
 Package: drama-rs
-Version: 0.1.1
+Version: 0.2.0
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 30524
+Installed-Size: 37280
 Depends: libcuda1, libcudart12, libcublas12
-Filename: pool/main/d/drama-rs/drama-rs_0.1.1-1_amd64.deb
-Size: 5623534
-MD5sum: ab32f5719e60ae366bb830f8a9ebdbb3
-SHA1: 7472e15228ffdd287f38c26f2ef995421d2c8967
-SHA256: 3723e018bde05ecf984d36e16f143288396f11574673195ee53710cfb090975d
+Filename: pool/main/d/drama-rs/drama-rs_0.2.0-1_amd64.deb
+Size: 6286892
+MD5sum: 38e0ce476432910bcfeae93155755c94
+SHA1: e8ff49ebfadf3f34621ebec60ac93353e3346aff
+SHA256: 2c881d5b1561321d738ad97249f2890c864d717b31be91049eb83f23ac9b8f88
 Section: sound
 Priority: optional
 Homepage: https://github.com/apiplant/drama-rs
