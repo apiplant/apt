@@ -63,6 +63,26 @@ Description: apiplant without TypeScript support (no V8)
  glibc 2.35, so it needs Debian 12 (bookworm) or newer, or Ubuntu 22.04 or
  newer.
 
+Package: chess-vision-rs
+Version: 0.1.0
+Architecture: arm64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 27252
+Filename: pool/main/m/chess-vision-rs/chess-vision-rs_0.1.0-1_arm64.deb
+Size: 8836880
+MD5sum: 0b21420d0e1075ac26e359425f51df27
+SHA1: ee50fdd36c0a10f39f8bfeda0afec3e80c2f7755
+SHA256: 9f3c37d4defcbbab6232a0501b54eeb7e4d8073580c3d11676faeb06a2fada11
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/chess-vision-rs
+Description: Recognise a chess position from an image and print FEN, Lichess links or a rendered board
+ chess-vision detects the board and pieces in a screenshot or photo with a
+ YOLOv8m model on ONNX Runtime, works out the orientation (reading the board's
+ coordinate labels with PaddleOCR when present) and prints the FEN, Lichess
+ analysis links or a rendered board. Models are downloaded to the XDG cache on
+ first use.
+
 Package: fluid-speech-rs
 Version: 0.1.4
 Architecture: arm64
