@@ -84,16 +84,16 @@ Description: Recognise a chess position from an image and print FEN, Lichess lin
  first use.
 
 Package: drama-rs
-Version: 0.2.0
+Version: 0.3.0
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 37280
+Installed-Size: 37292
 Depends: libcuda1, libcudart12, libcublas12
-Filename: pool/main/d/drama-rs/drama-rs_0.2.0-1_amd64.deb
-Size: 6286892
-MD5sum: 38e0ce476432910bcfeae93155755c94
-SHA1: e8ff49ebfadf3f34621ebec60ac93353e3346aff
-SHA256: 2c881d5b1561321d738ad97249f2890c864d717b31be91049eb83f23ac9b8f88
+Filename: pool/main/d/drama-rs/drama-rs_0.3.0-1_amd64.deb
+Size: 6288692
+MD5sum: aaed46392ebd0a499f5279f189673c7f
+SHA1: f6611be66fc63b078c89800e7795a0f78ad88efd
+SHA256: d4a9094908bcd9963aad1a16ff6de7332d53aa96fd8801bf2fe7942a778dad9c
 Section: sound
 Priority: optional
 Homepage: https://github.com/apiplant/drama-rs
