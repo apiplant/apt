@@ -203,16 +203,16 @@ Description: Rust (candle) inference for GLiNER2 checkpoints (CUDA build)
  link; it does not by itself guarantee driver/toolkit compatibility.
 
 Package: h3-rs
-Version: 0.5.1
+Version: 0.5.2
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 72640
+Installed-Size: 72708
 Depends: libcuda1, ffmpeg
-Filename: pool/main/h/h3-rs/h3-rs_0.5.1-1_amd64.deb
-Size: 12117138
-MD5sum: f27456251a06f5209f047571cf2fc56a
-SHA1: 11d3420a06379cc1c2354fe2f84e2a65a0474420
-SHA256: 8ab285aa8f1b7aa10bf3dc4033bf9c3925f844429c2b29fad329a13f94fe385d
+Filename: pool/main/h/h3-rs/h3-rs_0.5.2-1_amd64.deb
+Size: 12119086
+MD5sum: c8000e4956f0f07acba12c83e44e6ff6
+SHA1: 8bd8cc9376dc3be0f535e2a36bba48070e383c51
+SHA256: 389c87df53bb54b94d7d9ce3b40aa4d17380e008859e5fb415503d887b40499c
 Section: video
 Priority: optional
 Homepage: https://github.com/apiplant/h3-rs
