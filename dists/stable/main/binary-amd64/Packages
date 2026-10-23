@@ -515,49 +515,49 @@ Description: Rust host and model tools for the OpenDLSS-NR neural renderer
  ~/.config/opendlss.
 
 Package: phonon-rs
-Version: 0.1.4
+Version: 0.2.0
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 24864
+Installed-Size: 24852
 Depends: libasound2
-Filename: pool/main/p/phonon-rs/phonon-rs_0.1.4-1_amd64.deb
-Size: 7078690
-MD5sum: 055f7d45460d7f0bb4911502f38232f5
-SHA1: 57b12944b06613fa4a47d44fa1c337f60f05c915
-SHA256: e9e687ae5943d37bfa3816aac39b256ce18442f94ec9ed60ffe315808bc6ddc1
+Filename: pool/main/p/phonon-rs/phonon-rs_0.2.0-1_amd64.deb
+Size: 7081102
+MD5sum: 0d0bdf2704d4eb76628fbb2088fb4d6d
+SHA1: 02883ebf54d1f33fd5ea02f468872a455ca1af23
+SHA256: 7916abe89e82224b5b08349404c0450be4a322c0af16e4e5fc7e03372284b1dd
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/phonon-rs
-Description: Phonon-2 speech-to-text CLI and dictation daemon (candle)
- phonon transcribes audio files or the microphone with Phonon-2, the
+Description: Phonon-2.5 speech-to-text CLI and dictation daemon (candle)
+ phonon transcribes audio files or the microphone with Phonon-2.5, the
  five-value quantised Parakeet-TDT-0.6B-v3, natively on candle. phonon-
  dictate is a push-to-talk dictation daemon (Linux and macOS). The model
- (164 MB) is downloaded from Hugging Face on first use into
+ (163 MB) is downloaded from Hugging Face on first use into
  ~/.cache/phonon-rs, or taken from --model.
 
 Package: phonon-rs-cuda
-Version: 0.1.4
+Version: 0.2.0
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 36228
+Installed-Size: 36236
 Depends: libasound2, libcuda1
 Recommends: nvidia-cuda-toolkit | libcublas12
 Conflicts: phonon-rs
 Replaces: phonon-rs
 Provides: phonon-rs
-Filename: pool/main/p/phonon-rs/phonon-rs-cuda_0.1.4-1_amd64.deb
-Size: 7751538
-MD5sum: 5baf51021f0d5d76ddd536a32a917516
-SHA1: b685ab7463b9daef39d46c6a19c06955d8ac6349
-SHA256: 7f189d1cfec4b3db20808ff00e3ed3d24f5e0cdea4d8930a6f2898f8a693d6c9
+Filename: pool/main/p/phonon-rs/phonon-rs-cuda_0.2.0-1_amd64.deb
+Size: 7752956
+MD5sum: 06af58007e25718ef6685129d986d9eb
+SHA1: 0582bbfdd8dacec4884cc365e1f16c6b387105a7
+SHA256: 3cbd74d3483f55e045a2057721e13baf052ee4bc2f4ad39b0f230ab57a626f5c
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/phonon-rs
-Description: Phonon-2 speech-to-text CLI and dictation daemon (candle) (CUDA build)
- phonon transcribes audio files or the microphone with Phonon-2, the
+Description: Phonon-2.5 speech-to-text CLI and dictation daemon (candle) (CUDA build)
+ phonon transcribes audio files or the microphone with Phonon-2.5, the
  five-value quantised Parakeet-TDT-0.6B-v3, natively on candle. phonon-
  dictate is a push-to-talk dictation daemon (Linux and macOS). The model
- (164 MB) is downloaded from Hugging Face on first use into
+ (163 MB) is downloaded from Hugging Face on first use into
  ~/.cache/phonon-rs, or taken from --model. This build is linked against
  CUDA. Needs an NVIDIA GPU (Turing or newer). libcuda1 (installed by the
  NVIDIA driver package) satisfies the runtime link; it does not by itself

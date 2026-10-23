@@ -297,24 +297,24 @@ Description: Rust host and model tools for the OpenDLSS-NR neural renderer
  ~/.config/opendlss.
 
 Package: phonon-rs
-Version: 0.1.4
+Version: 0.2.0
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 21260
+Installed-Size: 21244
 Depends: libasound2
-Filename: pool/main/p/phonon-rs/phonon-rs_0.1.4-1_arm64.deb
-Size: 6416790
-MD5sum: e7f03d5094baf0d361dcaf6d116065ce
-SHA1: c6880edebc2c72591a1e60c3ff155bd94b01ac16
-SHA256: 1ec7869b4f08752cc183a4642d3b3c04f6dc81848f67d612567b90846e049960
+Filename: pool/main/p/phonon-rs/phonon-rs_0.2.0-1_arm64.deb
+Size: 6415784
+MD5sum: 285f7a6b50f668b2ddea6c2605e82b1d
+SHA1: b776165433202502c8b710129285a056f71e9d22
+SHA256: d6d2b7dfe6d247253ccd2114f80042246fd063bc2ff85a860f112601962b1356
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/phonon-rs
-Description: Phonon-2 speech-to-text CLI and dictation daemon (candle)
- phonon transcribes audio files or the microphone with Phonon-2, the
+Description: Phonon-2.5 speech-to-text CLI and dictation daemon (candle)
+ phonon transcribes audio files or the microphone with Phonon-2.5, the
  five-value quantised Parakeet-TDT-0.6B-v3, natively on candle. phonon-
  dictate is a push-to-talk dictation daemon (Linux and macOS). The model
- (164 MB) is downloaded from Hugging Face on first use into
+ (163 MB) is downloaded from Hugging Face on first use into
  ~/.cache/phonon-rs, or taken from --model.
 
 Package: portward
