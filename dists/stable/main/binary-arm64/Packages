@@ -341,3 +341,21 @@ Description: Live map of listening ports on localhost, with a web UI
  against glibc 2.35, so it needs Debian 12 (bookworm) or newer, or Ubuntu
  22.04 or newer.
 
+Package: sam-rs
+Version: 0.1.0
+Architecture: arm64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 14952
+Filename: pool/main/l/sam-rs/sam-rs_0.1.0-1_arm64.deb
+Size: 4660220
+MD5sum: 3050a709c69f99e2c784ac7cc8a1d2ca
+SHA1: a4a2381916710790a02ba51cfcbe47e709dd75b8
+SHA256: fe74c9704920129c6efcfcd3253a2547eefca2a65d26a2d5588d95160981ce93
+Section: utils
+Priority: optional
+Homepage: https://github.com/apiplant/sam-rs
+Description: Rust (candle) inference for Segment Anything models
+ sam-rs segments images with SAM, MobileSAM, EfficientSAM, SAM 2 and SAM 3,
+ locally via candle. Model weights are downloaded from Hugging Face on
+ first use into ~/.cache/sam-rs.
+
