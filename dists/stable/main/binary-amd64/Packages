@@ -588,15 +588,15 @@ Description: Live map of listening ports on localhost, with a web UI
  22.04 or newer.
 
 Package: sam-rs
-Version: 0.1.0
+Version: 0.1.1
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 17140
-Filename: pool/main/l/sam-rs/sam-rs_0.1.0-1_amd64.deb
-Size: 5094998
-MD5sum: e2eadf20082afda94070389150725033
-SHA1: 59043992316b035e239e3616cb770a3d8892254d
-SHA256: 1a7905b9ecad20676864618f77a27cda26e48dbe2b8afbc23e9168309c6c772b
+Filename: pool/main/l/sam-rs/sam-rs_0.1.1-1_amd64.deb
+Size: 5095862
+MD5sum: f393919a49065ddca9758688bbc24d27
+SHA1: 683122dc80880f824b7fbce8190c5d4245bc07e0
+SHA256: 077b89a6d42e8cee0be50b43c2128e8b9f27036e080a1ff8e70675d25d54789c
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/sam-rs
@@ -606,7 +606,7 @@ Description: Rust (candle) inference for Segment Anything models
  first use into ~/.cache/sam-rs.
 
 Package: sam-rs-cuda
-Version: 0.1.0
+Version: 0.1.1
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 64136
@@ -615,11 +615,11 @@ Recommends: nvidia-cuda-toolkit | libcublas12
 Conflicts: sam-rs
 Replaces: sam-rs
 Provides: sam-rs
-Filename: pool/main/l/sam-rs/sam-rs-cuda_0.1.0-1_amd64.deb
-Size: 10883008
-MD5sum: 1637aafd469834f1e5bc369a48923d99
-SHA1: 7988b740b3b0e42ff7518b0fe50f4dccf38a5061
-SHA256: 6c24b111fb892f3f346ef105e21ed37280ce2046fc6ef915d9ad0b0b7c2f84b6
+Filename: pool/main/l/sam-rs/sam-rs-cuda_0.1.1-1_amd64.deb
+Size: 10886848
+MD5sum: 7fb08a4812194c6786e3f6e2a16df071
+SHA1: fce0c55d6511dd2aaa8d49c48e81c40c236ec09c
+SHA256: 98c1a83a2c7512628fff6d2ec68f8f69a31a377880d179b054867c550feadb91
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/sam-rs

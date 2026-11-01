@@ -342,15 +342,15 @@ Description: Live map of listening ports on localhost, with a web UI
  22.04 or newer.
 
 Package: sam-rs
-Version: 0.1.0
+Version: 0.1.1
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
 Installed-Size: 14952
-Filename: pool/main/l/sam-rs/sam-rs_0.1.0-1_arm64.deb
-Size: 4660220
-MD5sum: 3050a709c69f99e2c784ac7cc8a1d2ca
-SHA1: a4a2381916710790a02ba51cfcbe47e709dd75b8
-SHA256: fe74c9704920129c6efcfcd3253a2547eefca2a65d26a2d5588d95160981ce93
+Filename: pool/main/l/sam-rs/sam-rs_0.1.1-1_arm64.deb
+Size: 4660996
+MD5sum: f3e070d06c6b83a37e170d9b22b26567
+SHA1: cad9e43cdb3eae11e9a9e0e3b4f21524a92e3e8f
+SHA256: 192cacfc66d4e3a64f7c830bc305182b7102ffcb078ee9f9a33d190ff08dd64a
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/sam-rs
