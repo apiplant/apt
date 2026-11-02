@@ -226,6 +226,31 @@ Description: MiniMax H3 video with stereo audio on NVIDIA GPUs (Rust, CUDA)
  NVIDIA's CUDA repository. libcuda1 (installed by the NVIDIA driver
  package) satisfies the driver link only.
 
+Package: idol-rs
+Version: 0.1.0
+Architecture: amd64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 301596
+Depends: libcuda1
+Filename: pool/main/h/idol-rs/idol-rs_0.1.0-1_amd64.deb
+Size: 36561322
+MD5sum: 1e51f2b02a2d2b2ca9f191995bc33af3
+SHA1: 12b3196257573fe648dc44c2fdf266e7dc680f5f
+SHA256: aa825716659833eb7f22020aa98c7f10790a1dceff9beb2ed76c157eb9746369
+Section: graphics
+Priority: optional
+Homepage: https://github.com/apiplant/idol-rs
+Description: one image to a 3D Gaussian splat on NVIDIA GPUs (Rust, CUDA)
+ idol turns one picture of an object into a 3D Gaussian splat (a
+ standard 3DGS .ply): it removes the background, frames the object and
+ generates up to a million Gaussians, including the sides the picture
+ never showed. `idol serve` adds an HTTP API and a built-in web UI with
+ a 3D viewer. Needs an NVIDIA GPU (Ampere or newer); the model files are
+ downloaded on first use. It links the CUDA 13 runtime (libcudart,
+ libcublas, libnvrtc), which is not packaged by Debian or Ubuntu: install
+ it from NVIDIA's CUDA repository. libcuda1 (installed by the NVIDIA
+ driver package) satisfies the driver link only.
+
 Package: imajev-rs
 Version: 0.1.0
 Architecture: amd64
