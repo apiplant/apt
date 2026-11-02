@@ -321,6 +321,27 @@ Description: Rust CPU/CUDA inference runtime for the Julia-1 decision model (CUD
  satisfies the runtime link; it does not by itself guarantee
  driver/toolkit compatibility.
 
+Package: kr-rs
+Version: 0.1.0
+Architecture: amd64
+Maintainer: apiplant <releases@apiplant.com>
+Installed-Size: 3272
+Filename: pool/main/k/kr-rs/kr-rs_0.1.0-1_amd64.deb
+Size: 1286114
+MD5sum: da7b7ab3fe03ce996a6bdff2628aabd2
+SHA1: 2ffd32527ba9b07c146930206a569b9784498539
+SHA256: d14eb063248a4270e931a105aee75461ad87539b3db372533a8edae6f132bfb9
+Section: admin
+Priority: optional
+Homepage: https://github.com/apiplant/kr-rs
+Description: Kubernetes in one static binary
+ kr is a Kubernetes distribution in a single static binary of about 3 MB,
+ written in Rust with no libc and no third-party crates: API server,
+ datastore, scheduler, controllers, kubelet, container runtime, pod network,
+ service proxy and cluster DNS. Needs Linux 5.10 or newer with cgroup v2 and
+ overlayfs. Systemd units kr-server.service and kr-agent.service are
+ installed but not enabled.
+
 Package: laya-rs
 Version: 0.4.1
 Architecture: amd64
