@@ -347,15 +347,15 @@ Description: Rust CPU/CUDA inference runtime for the Julia-1 decision model (CUD
  driver/toolkit compatibility.
 
 Package: kr-rs
-Version: 0.1.0
+Version: 0.1.1
 Architecture: amd64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 3272
-Filename: pool/main/k/kr-rs/kr-rs_0.1.0-1_amd64.deb
-Size: 1286114
-MD5sum: da7b7ab3fe03ce996a6bdff2628aabd2
-SHA1: 2ffd32527ba9b07c146930206a569b9784498539
-SHA256: d14eb063248a4270e931a105aee75461ad87539b3db372533a8edae6f132bfb9
+Installed-Size: 3256
+Filename: pool/main/k/kr-rs/kr-rs_0.1.1-1_amd64.deb
+Size: 1281416
+MD5sum: 3a95bcc252cc55d4c07a2128d66d0960
+SHA1: 456739415f3fac2133a5f9d05a5b227a307fcdc4
+SHA256: d9ea132a339de6b026fa479611f2a7cd6ded9b9d35f4f8cff296fe957554ef01
 Section: admin
 Priority: optional
 Homepage: https://github.com/apiplant/kr-rs
