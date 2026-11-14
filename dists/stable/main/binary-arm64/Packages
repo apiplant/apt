@@ -162,15 +162,15 @@ Description: Rust CPU/CUDA inference runtime for the Julia-1 decision model
  Julia-1 checkpoint directory with --checkpoint or JULIA_CHECKPOINT.
 
 Package: kr-rs
-Version: 0.3.0
+Version: 0.3.1
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 3972
-Filename: pool/main/k/kr-rs/kr-rs_0.3.0-1_arm64.deb
-Size: 1973748
-MD5sum: b77d8a8affcc91048d9228280499062c
-SHA1: 674fe87344a0b710caa77facc493c34210324619
-SHA256: a291d95dd0d2820015c2ee558c4426795f461fa868df6e5991e0d61dcb6e6aae
+Installed-Size: 4292
+Filename: pool/main/k/kr-rs/kr-rs_0.3.1-1_arm64.deb
+Size: 2137014
+MD5sum: 292192cc97cc142232cb793d37d3f998
+SHA1: 201ccddeec76b9f1914aa4ee5719cc8643dd1bcb
+SHA256: 753ab20a29801eb4b932df6e47a6566362b6889da905d70a0cdfdb16f2ac73b0
 Section: admin
 Priority: optional
 Homepage: https://github.com/apiplant/kr-rs
