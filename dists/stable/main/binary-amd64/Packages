@@ -1,15 +1,15 @@
 Package: apiplant
-Version: 0.10.0-1
+Version: 0.11.0-1
 Architecture: amd64
 Maintainer: Federico Rampazzo <federico@apiplant.com>
-Installed-Size: 99596
+Installed-Size: 101136
 Conflicts: apiplant-slim
 Replaces: apiplant-slim
-Filename: pool/main/a/apiplant/apiplant_0.10.0-1_amd64.deb
-Size: 29361848
-MD5sum: dfed644785076d6370bd3b32cbc897f7
-SHA1: dbf3cd2b89e17771658b35bf1e79fc0067bd8fde
-SHA256: 784f20c6a7e2316c6427da482ddd32f1d3a760b97fea1427d0ce6b9fcb58186e
+Filename: pool/main/a/apiplant/apiplant_0.11.0-1_amd64.deb
+Size: 29788538
+MD5sum: aba895a6e2251996ce5d210931aa7ecf
+SHA1: 4af12f433430daad751efdc060b0b31d6f569382
+SHA256: 4f685b534dc02d1623657db4b63b493f57f819309fff93be587848ec5128f805
 Section: web
 Priority: optional
 Homepage: https://github.com/apiplant/apiplant
@@ -28,18 +28,18 @@ Description: Point it at an app directory and it serves an API
  newer.
 
 Package: apiplant-slim
-Version: 0.10.0-1
+Version: 0.11.0-1
 Architecture: amd64
 Maintainer: Federico Rampazzo <federico@apiplant.com>
-Installed-Size: 34304
+Installed-Size: 35844
 Conflicts: apiplant
 Replaces: apiplant
 Provides: apiplant
-Filename: pool/main/a/apiplant-slim/apiplant-slim_0.10.0-1_amd64.deb
-Size: 10167320
-MD5sum: 1c7dcb141f13bd024c7c1a9f66a07a37
-SHA1: 65a083c7da4758860c9190d502f108e419a20ab2
-SHA256: 16d0ce5dd11e6ae6edc89e32e30df26a75a1ff8cc3f8920ca4b1daa78e35701c
+Filename: pool/main/a/apiplant-slim/apiplant-slim_0.11.0-1_amd64.deb
+Size: 10668602
+MD5sum: 44d1f0176bcc2e4b73696da0ab8e0bb6
+SHA1: a7fe69851c8c0c8ed8518d659d0f2b723492b179
+SHA256: fa3021e3fc65621b5c7ca7914f1d298e26e8ed0cf5906c05d96ea100b6bcbf96
 Section: web
 Priority: optional
 Homepage: https://github.com/apiplant/apiplant
