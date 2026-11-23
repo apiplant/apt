@@ -84,16 +84,16 @@ Description: Recognise a chess position from an image and print FEN, Lichess lin
  first use.
 
 Package: fluid-speech-rs
-Version: 0.1.4
+Version: 0.1.5
 Architecture: arm64
 Maintainer: apiplant <releases@apiplant.com>
-Installed-Size: 18976
+Installed-Size: 19084
 Depends: libasound2
-Filename: pool/main/f/fluid-speech-rs/fluid-speech-rs_0.1.4-1_arm64.deb
-Size: 5860676
-MD5sum: e70c703b9a27081dcb42166fb6fd68b2
-SHA1: c56c68b138b63452d453df44b3de40bf73a5f7a5
-SHA256: 7c0d7b07abe9272d969a42b30d439c8f10a08cfc8ab47ebb1e56c8c6e41f1874
+Filename: pool/main/f/fluid-speech-rs/fluid-speech-rs_0.1.5-1_arm64.deb
+Size: 5876662
+MD5sum: c39617845af3b306b9b6ea47641f57b1
+SHA1: 75ffa96437af06e53f0f6383e054beb3d333ffc6
+SHA256: a1619fb086a69e66b875d25de3eb2d1e8f733a6117f29c2b9086da0248e00cbf
 Section: utils
 Priority: optional
 Homepage: https://github.com/apiplant/fluid-speech-rs
