@@ -362,6 +362,24 @@ Description: Live map of listening ports on localhost, with a web UI
  against glibc 2.35, so it needs Debian 12 (bookworm) or newer, or Ubuntu
  22.04 or newer.
 
+Package: rembg-rs
+Version: 0.1.2
+Architecture: arm64
+Maintainer: ApiPlant <releases@apiplant.com>
+Installed-Size: 19132
+Depends: libc6 (>= 2.39)
+Filename: pool/main/r/rembg-rs/rembg-rs_0.1.2-1_arm64.deb
+Size: 4822510
+MD5sum: 43ea98f358a4cc21bc89f9691e5bd1b0
+SHA1: 2d22af700f2c0bb7063d024f22a55395205fc04f
+SHA256: 21d77c845aaea5367744d8ea83a9c983199f687c754b58dd86513bf3852513aa
+Section: graphics
+Priority: optional
+Homepage: https://rembg-rs.apiplant.com
+Description: Native Rust background removal with Bria RMBG-3.0
+ Remove image backgrounds locally using the RMBG-3.0 model and a Rust
+ inference pipeline. The model weights download automatically on first use.
+
 Package: sam-rs
 Version: 0.1.1
 Architecture: arm64
